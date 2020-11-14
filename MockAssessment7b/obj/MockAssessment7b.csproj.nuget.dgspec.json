@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jason\\source\\repos\\MockAssessment7b\\MockAssessment7b\\MockAssessment7b.csproj": {}
+    "C:\\Users\\jason\\Source\\Repos\\MockAssessment7b\\MockAssessment7b\\MockAssessment7b.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jason\\source\\repos\\MockAssessment7b\\MockAssessment7b\\MockAssessment7b.csproj": {
+    "C:\\Users\\jason\\Source\\Repos\\MockAssessment7b\\MockAssessment7b\\MockAssessment7b.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jason\\source\\repos\\MockAssessment7b\\MockAssessment7b\\MockAssessment7b.csproj",
+        "projectUniqueName": "C:\\Users\\jason\\Source\\Repos\\MockAssessment7b\\MockAssessment7b\\MockAssessment7b.csproj",
         "projectName": "MockAssessment7b",
-        "projectPath": "C:\\Users\\jason\\source\\repos\\MockAssessment7b\\MockAssessment7b\\MockAssessment7b.csproj",
+        "projectPath": "C:\\Users\\jason\\Source\\Repos\\MockAssessment7b\\MockAssessment7b\\MockAssessment7b.csproj",
         "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jason\\source\\repos\\MockAssessment7b\\MockAssessment7b\\obj\\",
+        "outputPath": "C:\\Users\\jason\\Source\\Repos\\MockAssessment7b\\MockAssessment7b\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

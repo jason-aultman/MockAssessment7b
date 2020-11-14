@@ -35,9 +35,19 @@ namespace MockAssessment7b.Controllers
         [HttpPost]
         public async Task<IActionResult> Search(int Id)
         {
-            var response =  await _httpClient.GetAsync($"donuts/{3}.json");
-            var responseToJson = response.Content.ReadAsStringAsync().GetAwaiter().GetResult(); 
-            var donutResult = JsonSerializer.Deserialize<Donut>(responseToJson,_jsonSerializerOptions);
+            var response =  await _httpClient.GetAsync($"donuts/{Id}.json");
+            string responseToJson;
+            Donut donutResult;
+            if (response.IsSuccessStatusCode)
+            {
+                responseToJson = response.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+                donutResult = JsonSerializer.Deserialize<Donut>(responseToJson, _jsonSerializerOptions);
+            }
+            else
+            {
+                donutResult = new Donut() { Name = "Not available" };
+            }
+           
             return View(donutResult);
             
         }
